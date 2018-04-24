@@ -21,6 +21,12 @@ Parameters:
       The name of the application. This will be used as part of the name of the stack, as well as the name of the pipeline
     Type: String
     Default: webapp
+  PublicSubnetOneId:
+    Description: A public subnet Id to use for the load balancer
+    Type: AWS::EC2::Subnet::Id
+  PublicSubnetTwoId:
+    Description: A public subnet Id to use for the load balancer
+Type: AWS::EC2::Subnet::Id
 
 Resources:
   ArtifactStoreBucket:
