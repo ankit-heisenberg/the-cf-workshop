@@ -26,7 +26,7 @@ Parameters:
     Type: AWS::EC2::Subnet::Id
   PublicSubnetTwoId:
     Description: A public subnet Id to use for the load balancer
-Type: AWS::EC2::Subnet::Id
+    Type: AWS::EC2::Subnet::Id
 
 Resources:
   ArtifactStoreBucket:
